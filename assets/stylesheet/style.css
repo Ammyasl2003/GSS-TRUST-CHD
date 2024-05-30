@@ -205,6 +205,7 @@ a:hover {
   background: linear-gradient(rgba(3, 1, 10, 0.5), rgba(3, 1, 10, 0.5)), url(../media/home-banner.webp);
   background-repeat: no-repeat;
   background-size: cover;
+  
 }
 
 .about-hero-img {
@@ -282,7 +283,7 @@ a:hover {
 
 @media all and (max-width: 900px) {
   .header {
-    background-color: black;
+    background-color: transparent;
     height: 92px;
     padding: 8px;
   }
@@ -310,7 +311,7 @@ a:hover {
     border-bottom: 1px solid #4d4c4c;
   }
   .nav-links li a {
-    color: white;
+    color: black  ;
     padding: 8px 0;
   }
   .logo {
@@ -329,7 +330,7 @@ a:hover {
   }
   .toggle:checked ~ .nav-links {
     display: inline-block;
-    background-color: black;
+    background-color: white;
   }
 }
 
